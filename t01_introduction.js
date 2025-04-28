@@ -6,7 +6,7 @@ console.log("Running t01_introduction.js");
  //Varibles
 
 
- /***************************
+/***************************
  Main code
 ***************************/
 
