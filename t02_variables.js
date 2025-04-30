@@ -1,9 +1,17 @@
 /****************************
-console.log("Running t01_introduction.js");
+Let user money = 3;
+console.log(pocketmoney);
 
  //Varibles
-let user money
+The user name 
+The user age 
+How much pocket money the user has.
+The current year.
+Hi _______
 
+As of ____ you are __ years old
+
+You have __ dollars
 /***************************
  Main code
 ***************************/
