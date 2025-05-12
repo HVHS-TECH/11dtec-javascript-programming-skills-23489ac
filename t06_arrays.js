@@ -1,1 +1,1 @@
-let arry 
+let classarry = []
