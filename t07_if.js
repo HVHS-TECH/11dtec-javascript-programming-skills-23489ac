@@ -12,7 +12,15 @@ money = Number(prompt("How much pocket money do you have?"));
 /******************************
  Main codecode
 ******************************/
-
+if (money >= 4) {
+  alert("Hi " + name + "\nYou were born in " + birthYear +
+        "\nYou have $" + money +
+        "\nYou CAN buy a chocolate bar!");
+} else {
+  alert("Hi " + name + "\nYou were born in " + birthYear +
+        "\nYou have $" + money +
+        "\nSorry, you CAN'T buy a chocolate bar.");
+}
 
 /******************************
  Functions
