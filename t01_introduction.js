@@ -1,7 +1,7 @@
 /******************************
  Name of task:
 ******************************/
-console.log(".");
+console.log("runing T1-intro.");
 
 //Variables
 
