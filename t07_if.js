@@ -1,7 +1,7 @@
 /******************************
  Name of task:
 ******************************/
-console.log("Hello! This is my first JavaScript program.");
+console.log("runing T1-intro.js");
 
 //Variables
 
