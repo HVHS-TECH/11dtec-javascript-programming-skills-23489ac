@@ -27,8 +27,6 @@ function checkMoney() {
 
 name = getName();
 age = getAge();
-ch
-
 
 /******************************
  Functions
