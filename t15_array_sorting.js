@@ -15,7 +15,13 @@ alert(message)
 /******************************
  Main codecode
 ******************************/
+let classArray = ["jack", "Oliva", "Keiran"];
 
+displayClass();
+
+// get a new name, push it into the array
+let newPerson+ prompt("Welcome to the class, what's your name?"
+classArray.push9newPer
 
 /******************************
  Functions
