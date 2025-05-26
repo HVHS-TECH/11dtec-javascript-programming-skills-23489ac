@@ -4,7 +4,7 @@
 console.log("runing T1-intro.js");
 
 //Variables
-
+const 
 
 /******************************
  Main codecode
