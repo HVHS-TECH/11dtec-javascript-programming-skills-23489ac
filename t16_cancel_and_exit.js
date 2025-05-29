@@ -29,7 +29,6 @@ while(userReply){
         alert("Invailid Name - please enter a vaild name")
     }else{
         userRelpy = false;
-}
     
     }    
 }
