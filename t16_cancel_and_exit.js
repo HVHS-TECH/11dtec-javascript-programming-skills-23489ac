@@ -17,7 +17,9 @@ function start() {
 
 //creates function to get the users name
 function getUserName(){
-    userName = prompt("What is your name?");
+    //lop while userReply invaild
+    while(userReply){
+         userName = prompt("What is your name?");
     //check if the user has clicked cancel
     if (userName ==null){
         return;//exit this function
@@ -30,4 +32,3 @@ function getUserName(){
     
     } 
     
-
