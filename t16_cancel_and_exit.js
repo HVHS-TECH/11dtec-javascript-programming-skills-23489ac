@@ -1,16 +1,9 @@
-/******************************
- Name of task:
-******************************/
-console.log("runing T1-intro.js");
-
-//Variables
+/*******Variables*******/
 var userName;
 var userHeight;
 var userreply = true;
 
-/******************************
- Main codecode
-******************************/
+/********Main code*******/
 function start() {
     getUserName();
     //check if the user has clicked cancel
