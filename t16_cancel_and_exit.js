@@ -1,10 +1,10 @@
 /*******Variables******/
 var userName;
 var userHeight;
-var userreply = true;
+var userReply = true;
 
  /********Main codecode*******/
-functionstart() {
+function start() {
     getUserName();
     //check if the user has clicked cancel
     if (userName == null){
@@ -28,6 +28,6 @@ function getUserName(){
         userRelpy = false;
     }
     
-    }
+    } 
     
 
