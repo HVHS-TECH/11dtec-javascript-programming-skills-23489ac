@@ -1,25 +1,33 @@
-/******************************
- Name of task:
-******************************/
-console.log("runing T1-intro.js");
-
-//Variables
+/*******Variables******/
 var userName;
 var userHeight;
 var userreply = true;
 
-/******************************
- Main codecode
-******************************/
+ /********Main codecode*******/
 functionstart() {
     getUserName();
     //check if the user has clicked cancel
     if (userName == null){
         //end the program
         return;
-    }
+ }
     getUserHeight();
 }
-/******************************
- Functions
-******************************/
+/*****Functions************/
+
+//creates function to get the users name
+function getUserName(){
+    userName = prompt("What is your name?");
+    //check if the user has clicked cancel
+    if (userName ==null){
+        return;//exit this function
+    }
+    if (!isNaN(userName) || userName ==""){
+        alert("Invailid Name - please enter a vaild name")
+    }else{
+        userRelpy = false;
+    }
+    
+    }
+    
+
