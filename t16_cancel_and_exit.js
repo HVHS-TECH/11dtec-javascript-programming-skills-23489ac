@@ -11,7 +11,7 @@ var userreply = true;
 /******************************
  Main codecode
 ******************************/
-functionstart() {
+function start() {
     getUserName();
     //check if the user has clicked cancel
     if (userName == null){
@@ -20,6 +20,10 @@ functionstart() {
     }
     getUserHeight();
 }
-/******************************
- Functions
-******************************/
+/***** Functions************/
+//creat function to get the users name 
+function getUserName(){
+    userName = prompt ('What is your name?');
+    
+}
+
