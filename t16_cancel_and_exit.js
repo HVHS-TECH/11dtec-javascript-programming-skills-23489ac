@@ -15,10 +15,10 @@ function start() {
 }
 /***** Functions************/
 
-//creat function to get the users name 
-function getUserName(){
+//create function to get the users name 
+function getUserName() {
    //loop while userReply invalid
-   while (usereply ){
+   while (useReply ){
     userName = propmt("What is your name?");
     //check if the user has clicked cancel
     if( username == null){
