@@ -21,11 +21,12 @@ function start() {
     getUserHeight();
 }
 /***** Functions************/
+
 //creat function to get the users name 
 function getUserName(){
    //loop while userReply invalid
    while (usereply ){
-    UserName = propmt("What is your name?");
+    userName = propmt("What is your name?");
     //check if the user has clicked cancel
     if( username == null){
         return;//exit this function
